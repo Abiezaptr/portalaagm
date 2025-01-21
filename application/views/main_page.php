@@ -34,7 +34,6 @@
 
 		.logo-circle {
 			width: 170px !important;
-			/* Increased size */
 			height: auto !important;
 			border-radius: 50% !important;
 			object-fit: cover !important;
@@ -63,10 +62,8 @@
 			background: linear-gradient(to right, #ffffff 0%, #f9f9f9 75%, #999999 100%);
 			border-radius: 10px;
 			border: 2px solid #000000;
-			/* Black stroke */
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 			margin: 60px 0;
-			/* Increased top margin */
 			padding: 30px;
 			width: 96vw;
 			position: relative;
@@ -80,7 +77,12 @@
 		}
 
 		.youtube-placeholder {
-			background-color: #000;
+			background-image: url('<?= base_url("assets/img/test.webp") ?>');
+			/* Ganti dengan path gambar yang diinginkan */
+			background-size: cover;
+			/* Agar gambar menutupi seluruh area */
+			background-position: center;
+			/* Agar gambar terpusat */
 			height: 200px;
 			display: flex;
 			align-items: center;
@@ -90,55 +92,66 @@
 			border-radius: 10px;
 		}
 
+
 		.divider {
 			width: 2px;
 			background-color: #ccc;
-			/* Color of the divider */
 			height: 100%;
-			/* Full height of the card */
 			margin: 0 20px;
-			/* Spacing around the divider */
 		}
 
 		.platform-icon {
 			width: 20px;
-			/* Adjust the width as needed */
 			height: auto;
-			/* Maintain aspect ratio */
 			margin-right: 10px;
-			/* Space between the image and text */
 		}
 
 		.play-icon {
 			width: 100px;
-			/* Adjust the width as needed */
 			height: auto;
-			/* Maintain aspect ratio */
 		}
 
 		.list-link {
 			color: black;
-			/* Warna teks tetap hitam */
 			text-decoration: none;
-			/* Hilangkan garis bawah */
 		}
 
 		.list-link:hover {
 			text-decoration: underline;
-			/* Garis bawah muncul hanya saat hover (opsional) */
 		}
 
-
 		@media (max-width: 768px) {
-			.logo-container {
-				left: 10px;
+			body {
+				background-color: white;
+				/* Latar belakang putih */
+				margin: 0;
+				/* Hapus margin default */
+				padding: 0;
+				/* Hapus padding default */
+			}
+
+			.container {
+				width: 90%;
+				/* Atur lebar kontainer */
+				max-width: 1200px;
+				/* Atur lebar maksimum */
+				margin: 0 auto;
+				/* Pusatkan kontainer */
+				padding: 20px;
+				/* Tambahkan padding jika perlu */
 			}
 
 			.content {
-				margin-left: 5%;
+				width: 100%;
+				/* Pastikan konten mengambil lebar penuh */
+				margin: 0 auto;
+				/* Pusatkan konten */
+				text-align: center;
+				/* Pusatkan teks jika perlu */
 			}
 		}
 	</style>
+
 </head>
 
 <body>
@@ -182,8 +195,8 @@
 					</div>
 					<div class="divider"></div> <!-- Divider here -->
 					<div class="col-md-5">
-						<h6 class="card-title" style="color: #1F1C40;"><b>Teknologi Digital Terbaru</b></h6>
-						<p class="card-text">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<h6 class="card-title" style="color: #1F1C40;"><b>Teknologi Digital Terbaru di Telkomsel</b></h6>
+						<p class="card-text">Telkomsel mengedepankan pemanfaatan teknologi kecerdasan buatan (AI) dalam ekosistem inovasi. Acara ini bertujuan untuk menghubungkan produk dan portofolio inovasi Telkomsel dengan pelaku ekosistem digital di Indonesia. Dalam acara tersebut, berbagai kegiatan dilakukan, termasuk diskusi panel dan showcase inovasi AI, yang menampilkan potensi transformasional AI dalam membentuk masa depan digital.</p>
 					</div>
 					<div class="col-md-3">
 						<div class="youtube-placeholder">
@@ -202,8 +215,7 @@
 				<div>
 					<h2 style="font-size: 20px; color:#1F1C40; margin: 0; font-weight: semibold;">The Mobile Economy</h2>
 					<p style="font-size: 14px; color: #555; margin-top: 8px;">
-						Loren ipsum is simply dummy text of the printing and typesetting industry.
-						Loren ipsum has been the industry's standard dummy text ever.
+						Ekonomi mobile merujuk pada pertumbuhan dan dampak teknologi mobile dalam industri. Ini mencakup penggunaan aplikasi dan layanan mobile yang mengubah cara orang berinteraksi dan berbisnis.
 					</p>
 				</div>
 			</div>
@@ -214,8 +226,7 @@
 				<div>
 					<h2 style="font-size: 20px; color:#1F1C40; margin: 0; font-weight: semibold;">The Mobile Economy</h2>
 					<p style="font-size: 14px; color: #555; margin-top: 8px;">
-						Loren ipsum is simply dummy text of the printing and typesetting industry.
-						Loren ipsum has been the industry's standard dummy text ever.
+						Ekonomi mobile merujuk pada pertumbuhan dan dampak teknologi mobile dalam industri. Ini mencakup penggunaan aplikasi dan layanan mobile yang mengubah cara orang berinteraksi dan berbisnis.
 					</p>
 				</div>
 			</div>
