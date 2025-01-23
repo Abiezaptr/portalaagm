@@ -24,8 +24,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 
-// $config['base_url'] = 'https://aagm.telkomsel.co.id/dashboard';
-$config['base_url'] = 'https://192.168.0.127/dashboard';
+$config['base_url'] = 'http://aagm.telkomsel.co.id/dashboard';
+
 
 /*
 |--------------------------------------------------------------------------
