@@ -132,6 +132,17 @@
 			border-radius: 10px;
 			margin-left: 30px;
 		}
+
+		.hover-effect {
+			transition: transform 0.3s ease, color 0.3s ease;
+		}
+
+		.hover-effect:hover {
+			transform: scale(1.1);
+			/* Membuat elemen sedikit lebih besar saat disentuh */
+			color: rgb(255, 99, 71);
+			/* Mengubah warna saat disentuh */
+		}
 	</style>
 </head>
 
@@ -149,7 +160,7 @@
 				<h3 style="color: rgb(45, 40, 92);">What's New in Portal</h3>
 				<h4 style="color: rgb(49, 42, 117);">Explore Our Platform</h4>
 				<h5>Applications that are available now</h5>
-				<ul>
+				<!-- <ul>
 					<li style="color: rgb(49, 42, 117);">
 						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
 							<i class="fas fa-file"></i> Portal Dashboard
@@ -171,6 +182,34 @@
 						</a>
 					</li>
 					<li style="color: rgb(49, 42, 117);">
+						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
+							<i class="fas fa-file"></i> SSM Xplore
+						</a>
+					</li>
+				</ul> -->
+
+				<ul>
+					<li class="hover-effect">
+						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
+							<i class="fas fa-file"></i> Portal Dashboard
+						</a>
+					</li>
+					<li class="hover-effect">
+						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
+							<i class="fas fa-file"></i> Portal MCI
+						</a>
+					</li>
+					<li class="hover-effect">
+						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
+							<i class="fas fa-file"></i> Davis
+						</a>
+					</li>
+					<li class="hover-effect">
+						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
+							<i class="fas fa-file"></i> Debi Warriors
+						</a>
+					</li>
+					<li class="hover-effect">
 						<a href="" style="color: rgb(49, 42, 117); text-decoration: none;">
 							<i class="fas fa-file"></i> SSM Xplore
 						</a>
