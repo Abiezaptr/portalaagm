@@ -1,0 +1,160 @@
+
+/* single FH styles */
+
+.singleFHa
+{
+	width: 820px;
+	font-family: Segoe UI, Arial, Verdana;
+	margin-left: 60px;
+}
+
+ .card-container
+{
+	 display: flex; justify-content: space-between; margin-top: 0px; padding: 0 0px;
+}
+
+.card-item
+{
+	width: 100%;
+	display: flex;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.card-link
+{
+    text-decoration: none;
+    color: inherit; /* Keeps text color unchanged */
+}
+
+.card-item:hover {
+    transform: scale(1.05); /* Zoom effect */
+	background-color: #fef9e7;
+	cursor: pointer;
+}
+
+.card-image
+{
+	width: 48px; height: 48px; border-radius: 3px; margin-right: 20px;
+}
+
+.card-header
+{
+	font-size: 16px; color: rgb(45, 40, 92); margin-bottom: 10px; font-weight: 600;
+}
+
+.card-body
+{
+	font-size: 12px; color: rgb(0, 0, 0);
+	width: 150px;
+}
+
+
+/* all up home page styles */
+
+#cntFHa_float_head {}
+
+#cnt_FHa_hero {
+height: 325px;
+width: 820px;
+background: url(../images/background_aagm.png) no-repeat top left;
+}
+
+#cntFHa_float_small_head {
+padding-left: 440px;
+padding-top: 280px;
+}
+
+#cnt_FHa_hero_Link a {
+position: absolute;
+height: 325px;
+width: 820px;
+}
+									  
+									  
+#cnt_au_hp_container
+{
+	padding-left: 76px;
+}
+.cnt_au_hp_vertical_space
+{
+	font-size: 2px;
+	height: 15px;
+}
+
+.cntFAa_tbl_mid
+{
+	margin: 0px;
+	font-size: 0.08em;
+	height: 1px;
+	padding: 0px;
+}
+
+.cntFAa_tbl_mid_div IMG
+{
+margin-top: 10px;
+}
+.cntFAa_tbl_mid_div P IMG
+{
+margin-top:0px;
+}
+
+.cntFAa_td_mid_image
+{
+	vertical-align: top;
+	padding: 0 0 0 10px;
+}
+
+.cntFAa_td_mid_head
+{
+	vertical-align: top;
+	padding: 5px 50px 0 10px;
+	width:200px;
+}
+
+.cntFHa_h3 a, .cntFHa_h3 a:visited
+{
+	color: #252525;
+}
+.cntFHa_h3
+{
+	font-size: 1.33em;
+	font-family: Segoe UI, Arial, Verdana;
+	font-weight: normal;
+	color: #454545;
+	margin: 0;
+	padding: 0 0 3px 0;
+}
+.cntFAa_td_mid_head  .cntFHa_h3
+{
+margin-top: 4px;
+}
+.cntInnerTabTable .cntFAa_td_mid_head
+{
+    width:50%;    
+}
+
+.cntFHa_hr
+{
+	background-color: #eaeaea;
+	margin: 20px 0 10px 0;
+}
+
+.cntFHa_td
+{
+	vertical-align: top;
+	padding: 0 0 0 0;
+	font-weight: bold;
+}
+
+.cntFHa_lower
+{
+	font-size: 0.92em;
+	color: #454545;
+	list-style: none;
+	line-height: 12px;
+	margin: 3px 0 0 0;
+}

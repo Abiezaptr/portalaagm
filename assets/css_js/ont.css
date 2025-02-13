@@ -1,0 +1,261 @@
+
+body,
+.cdLightBody {
+	background-color: #fff;
+	background: url('../images/background_wave.jpg') no-repeat center 50px scroll;
+	font-family: Segoe UI, Arial;
+	font-size: 62.5%;
+	padding: 0;
+	color: #666;
+	margin: 0;
+	line-height: normal;
+}
+
+body.cdBlankBody {
+	background-image: none;
+}
+
+div#cdnavcontbck {
+	background-color: white;
+	width: 100%;
+}
+
+div#cdnavcontainer {
+	padding: 5px 0 14px 0;
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+div#cdnavcontainer div#cdskiptomain {
+	position: absolute;
+	left: 0px;
+	top: -500px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.cdclr {
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	line-height: 0;
+}
+
+ul#cdtoptabs li.cdclr {
+	margin-top: -1.2em;
+}
+
+div#cdlogo {
+	float: left;
+	padding-left: 25px;
+	padding-right: 15px;
+}
+
+#cdtopnavlinks {
+	float: right;
+	margin-right: 32px;
+	padding-top: 10px;
+	color: #ccc;
+	font-size: 1.1em;
+}
+
+div#cdtopnavlinks>span,
+div#cdtopnavlinks>a {
+	padding-right: 3px;
+	dislay: inline-block;
+}
+
+#cdtopnavlinks a.cdtoggle span {
+	font-size: 0.9em;
+	color: #666666;
+}
+
+#cdtopnavlinks ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	border: solid 1px #cccccc;
+	background-color: #fff;
+	width: 100px;
+	padding: 2px;
+	top: -5000px;
+}
+
+#cdtopnavlinks ul li {
+	display: block;
+	padding: 3px 2px;
+}
+
+#cdtopnavlinks ul li:hover {
+	background-color: #eaeaea;
+	border: solid 1px #cccccc;
+	padding: 2px 1px;
+}
+
+#cdtopnavlinks ul li:hover a {
+	text-decoration: underline;
+}
+
+#cdtopnavlinks ul li a {
+	width: 100%;
+	display: block;
+}
+
+#cdtopnavlinks .cdglobe img {
+	vertical-align: -4px;
+}
+
+div#cdCntPane {
+	width: 990px;
+	margin: 0 auto;
+}
+
+div#cdCntPaneTop {
+	font-size: 1.1em;
+	margin: 10px 31px 5px 45px;
+	color: #999;
+}
+
+div#cdCntPane {
+	width: 990px;
+	margin: 3px auto;
+}
+
+div#cdCntPaneTop {
+	font-size: 1.1em;
+	margin: 10px 31px 5px 45px;
+	color: #999;
+}
+
+div#cdCntTop {
+	background-image: url('../images/glass_top.png');
+	background-repeat: no-repeat;
+	height: 31px;
+}
+
+div#cdCntMid {
+	background-image: url('../images/glass_middle.png');
+	background-repeat: repeat-y;
+	padding: 0 15px;
+	min-height: 400px;
+	height: auto !important;
+	height: 400px;
+}
+
+div#cdCntBot {
+	background-image: url('../images/glass_bottom.png');
+	background-repeat: no-repeat;
+	height: 38px;
+}
+
+#cdmainc {
+	float: right;
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.wholelayout {
+	width: 940px;
+	margin: 0px 10px;
+	overflow-y: hidden;
+}
+
+.cdRowTable {
+	width: 940px;
+	clear: both;
+	display: none;
+}
+
+.cdRowTableRowCol {}
+
+.cdRowTableRow {
+	text-align: left;
+}
+
+.cdTopMargin {
+	margin-top: 0px;
+}
+
+.cdWholeRow {
+	width: 940px;
+	min-height: 20px;
+}
+
+.cdHomeAllDiv {
+	overflow: auto;
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+}
+
+.cdHomeContentDiv {
+	color: #454545;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	overflow: hidden;
+}
+
+.cdHomeTopMargin {
+	margin-top: 15px;
+}
+
+a,
+a.cdchrm,
+a:visited,
+a.cdchrm:visited {
+	text-decoration: none;
+	color: #4685df;
+}
+
+a:hover,
+a.cdchrm:hover {
+	text-decoration: underline;
+}
+
+div#cdofooter {
+	width: 960px;
+	margin: 0.1em auto 0 auto;
+	font-size: 1.1em;
+}
+
+div#cdfooterlinks {
+	float: left;
+	width: 49.9%;
+	text-align: right;
+}
+
+div#cdfooterlinks>a,
+div#cdfooterlinks>span {
+	display: inline-block;
+	padding-right: 3px;
+	color: #ffffff;
+}
+
+div#cdfooterlinks a.cdlastfootlnk {
+	padding: 0 7px 0 0;
+}
+
+
+div#cdmicrofooterlink {
+	float: right;
+	width: 49.9%;
+	text-align: left;
+}
+
+div#cdmicrofooterlink span {
+	display: inline-block;
+	width: 351px;
+	float: left;
+	color: #ffffff;
+}
+
+div#cdmicrofooterlink a {
+	display: inline-block;
+	float: right;
+	margin: .1em 2.9em 0 0;
+}
