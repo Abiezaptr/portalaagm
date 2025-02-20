@@ -4,8 +4,8 @@
 <head>
 	<link rel="icon" type="image/png" href="<?= base_url('assets') ?>/images/aagm_icon.png">
 	<title>AAGM Portal - Telkomsel</title>
-	<link id="css-ont" href="<?= base_url('assets/css_js') ?>/ont.css" rel="stylesheet">
-	<link id="css-content" href="<?= base_url('assets/css_js') ?>/content.css" rel="stylesheet">
+	<link id="css-ont" href="<?= base_url('assets') ?>/css_js/ont.css" rel="stylesheet">
+	<link id="css-content" href="<?= base_url('assets') ?>/css_js/content.css" rel="stylesheet">
 
 </head>
 
@@ -66,7 +66,7 @@
 																										Dashboard
 																									</div>
 																									<div class="card-body">
-																										<a href="https://aagm.telkomsel.co.id/portaldashboard/login">Tableau Marketing Dashboard &gt;</a>
+																										<a href="https://aagm.telkomsel.co.id/portaldashboard/login">Tableau Dashboard for Marketing &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
@@ -81,10 +81,10 @@
 																								<img class="card-image" src="<?= base_url('assets') ?>/images/davis_icon.png" alt="Data Visualization">
 																								<div>
 																									<div class="card-header">
-																										Data Visualization
+																										Davis
 																									</div>
 																									<div class="card-body">
-																										<a href="http://aagm.telkomsel.co.id:8501/">Visualize Dataframe, Scatter, Map, and Heatmap &gt;</a>
+																										<a href="http://aagm.telkomsel.co.id:8501/">Dataframe & Map Visualization &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
@@ -99,10 +99,10 @@
 																								<img class="card-image" src="<?= base_url('assets') ?>/images/mciportal_icon.png" alt="MCI Portal Repo">
 																								<div>
 																									<div class="card-header">
-																										Portal Repository
+																										MCI Repository
 																									</div>
 																									<div class="card-body">
-																										<a href="https://aagm.telkomsel.co.id/portalnews">MCI Portal Repository and Forum &gt;</a>
+																										<a href="https://aagm.telkomsel.co.id/portalnews">Portal Repository & Collaboration Forum &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
