@@ -76,7 +76,7 @@
 
 																				<td>
 																					<div class="card-container">
-																						<a href="http://aagm.telkomsel.co.id:8501/" class="card-link" style="text-decoration:none;">
+																						<a href="http://aagm.telkomsel.co.id/" class="card-link" style="text-decoration:none;">
 																							<div class="card-item">
 																								<img class="card-image" src="<?= base_url('assets') ?>/images/davis_icon.png" alt="Data Visualization">
 																								<div>
@@ -84,7 +84,7 @@
 																										Davis
 																									</div>
 																									<div class="card-body">
-																										<a href="http://aagm.telkomsel.co.id:8501/">Dataframe & Map Visualization &gt;</a>
+																										<a href="http://aagm.telkomsel.co.id/">Dataframe & Map Visualization &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
