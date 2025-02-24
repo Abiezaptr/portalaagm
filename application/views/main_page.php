@@ -84,7 +84,8 @@
 																										Davis
 																									</div>
 																									<div class="card-body">
-																										<a href="http://aagm.telkomsel.co.id/" target="_blank" rel="noopener noreferrer">Dataframe & Map Visualization &gt;</a>
+																										<!-- <a href="http://aagm.telkomsel.co.id/" target="_blank" rel="noopener noreferrer">Dataframe & Map Visualization &gt;</a> -->
+																										<a href="http://aagm.telkomsel.co.id:8501/" target="_blank" rel="noopener noreferrer">Dataframe & Map Visualization &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
