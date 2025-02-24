@@ -48,7 +48,7 @@
 																<div class="singleFHa">
 																	<div id="cnt_FHa_hero">
 																		<div id="cnt_FHa_hero_Link">
-																			<a href="https://www.instagram.com/lifeataagm/"></a>
+																			<a href="https://www.instagram.com/lifeataagm/" target="_blank" rel="noopener noreferrer"></a>
 																		</div>
 																		<h1 id="cntFHa_float_small_head" style="color: white;">Join with us! <a href="https://www.instagram.com/lifeataagm/" style="color: red;">Life at AAGM &gt;</a></h1>
 																	</div>
@@ -58,7 +58,7 @@
 																			<tr>
 																				<td>
 																					<div class="card-container">
-																						<a class="card-link" href="https://aagm.telkomsel.co.id/portaldashboard/login" style="text-decoration:none;">
+																						<a class="card-link" href="https://aagm.telkomsel.co.id/portaldashboard/login" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">
 																							<div class="card-item">
 																								<img class="card-image" src="<?= base_url('assets') ?>/images/dashboard_icon.png" alt="Tableau Dashboard">
 																								<div>
@@ -66,7 +66,7 @@
 																										Dashboard
 																									</div>
 																									<div class="card-body">
-																										<a href="https://aagm.telkomsel.co.id/portaldashboard/login">Tableau Dashboard for Marketing &gt;</a>
+																										<a href="https://aagm.telkomsel.co.id/portaldashboard/login" target="_blank" rel="noopener noreferrer">Tableau Dashboard for Marketing &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
@@ -76,7 +76,7 @@
 
 																				<td>
 																					<div class="card-container">
-																						<a href="http://aagm.telkomsel.co.id/" class="card-link" style="text-decoration:none;">
+																						<a href="http://aagm.telkomsel.co.id/" class="card-link" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">
 																							<div class="card-item">
 																								<img class="card-image" src="<?= base_url('assets') ?>/images/davis_icon.png" alt="Data Visualization">
 																								<div>
@@ -84,7 +84,7 @@
 																										Davis
 																									</div>
 																									<div class="card-body">
-																										<a href="http://aagm.telkomsel.co.id/">Dataframe & Map Visualization &gt;</a>
+																										<a href="http://aagm.telkomsel.co.id/" target="_blank" rel="noopener noreferrer">Dataframe & Map Visualization &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
@@ -94,7 +94,7 @@
 
 																				<td>
 																					<div class="card-container">
-																						<a href="https://aagm.telkomsel.co.id/portalnews" class="card-link" style="text-decoration:none;">
+																						<a href="https://aagm.telkomsel.co.id/portalnews" class="card-link" style="text-decoration:none;" target="_blank" rel="noopener noreferrer">
 																							<div class="card-item">
 																								<img class="card-image" src="<?= base_url('assets') ?>/images/mciportal_icon.png" alt="MCI Portal Repo">
 																								<div>
@@ -102,7 +102,7 @@
 																										MCI Repository
 																									</div>
 																									<div class="card-body">
-																										<a href="https://aagm.telkomsel.co.id/portalnews">Portal Repository & Collaboration Forum &gt;</a>
+																										<a href="https://aagm.telkomsel.co.id/portalnews" target="_blank" rel="noopener noreferrer">Portal Repository & Collaboration Forum &gt;</a>
 																									</div>
 																								</div>
 																							</div>&nbsp;&nbsp;
@@ -120,40 +120,40 @@
 																				<td width="164" class="cntFHa_td">
 																					Telkomsel Link
 																					<div class="cntFHa_lower">
-																						<a href="https://hcm.telkomsel.co.id/">HCM</a>
+																						<a href="https://hcm.telkomsel.co.id/" target="_blank" rel="noopener noreferrer">HCM</a>
 																					</div>
 																					<div class="cntFHa_lower">
-																						<a href="https://portal.telkomsel.co.id/">Portal HCM</a>
+																						<a href="https://portal.telkomsel.co.id/" target="_blank" rel="noopener noreferrer">Portal HCM</a>
 																					</div>
 																					<div class="cntFHa_lower">
-																						<a href="https://hcmportal.telkomsel.co.id/hcm/performance/web/index.php">IPMS</a>
+																						<a href="https://hcmportal.telkomsel.co.id/hcm/performance/web/index.php" target="_blank" rel="noopener noreferrer">IPMS</a>
 																					</div>
 																				</td>
 																				<td width="164" class="cntFHa_td">
 																					File Sharing
 																					<div class="cntFHa_lower">
-																						<a href="https://10.2.248.164/">SSM EXPLORER</a>
+																						<a href="https://10.2.248.164/" target="_blank" rel="noopener noreferrer">SSM EXPLORER</a>
 																					</div>
 																					<div class="cntFHa_lower">
-																						<a href="https://365tsel-my.sharepoint.com/">365 One Drive</a>
+																						<a href="https://365tsel-my.sharepoint.com/" target="_blank" rel="noopener noreferrer">365 One Drive</a>
 																					</div>
 																				</td>
 																				<td width="164" class="cntFHa_td">
 																					Ticketing
 																					<div class="cntFHa_lower">
-																						<a href="https://onlinecss.telkomsel.co.id/ap/home_army">ARMY Request</a>
+																						<a href="https://onlinecss.telkomsel.co.id/ap/home_army" target="_blank" rel="noopener noreferrer">ARMY Request</a>
 																					</div>
 																				</td>
 																				<td width="164" class="cntFHa_td">
 																					Map
 																					<div class="cntFHa_lower">
-																						<a href="http://petadata.telkomsel.co.id/aagm/">BDM Peta Data</a>
+																						<a href="http://petadata.telkomsel.co.id/aagm/" target="_blank" rel="noopener noreferrer">BDM Peta Data</a>
 																					</div>
 																				</td>
 																				<td width="164" class="cntFHa_td">
 																					Downloads
 																					<div class="cntFHa_lower">
-																						<a href="http://onlinecss.telkomsel.co.id/query_guidebook/">Query Guide</a>
+																						<a href="http://onlinecss.telkomsel.co.id/query_guidebook/" target="_blank" rel="noopener noreferrer">Query Guide</a>
 																					</div>
 																				</td>
 																			</tr>
@@ -161,7 +161,7 @@
 																	</div>
 																	<hr class="cntFHa_hr">
 																	<div class="cntFHa_lower">
-																		Follow us: <a href="https://www.instagram.com/lifeataagm"><img src="<?= base_url('assets') ?>/images/instagram_icon.png" alt="life at aagm" title="instagram aagm" border="0"></a> <a href="https://www.instagram.com/lifeataagm">Life at AAGM</a>
+																		Follow us: <a href="https://www.instagram.com/lifeataagm" target="_blank" rel="noopener noreferrer"><img src="<?= base_url('assets') ?>/images/instagram_icon.png" alt="life at aagm" title="instagram aagm" border="0"></a> <a href="https://www.instagram.com/lifeataagm" target="_blank" rel="noopener noreferrer">Life at AAGM</a>
 																	</div>
 																	<div class=""></div>
 																</div>
